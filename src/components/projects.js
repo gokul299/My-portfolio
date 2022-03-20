@@ -83,8 +83,8 @@ function Project() {
               where client can purchase a car of his
               choice on rent .Portal client just have to insert his trip's <span className="imp"> start </span> and
               <span className="imp"> end date </span>
-              as well as the <span className="imp">pickup time</span> and <span className="imp">location</span> and select car from
-              the available cars and pay accordingly.
+              as well as the <span className="imp">pickup time</span> and <span className="imp">location</span> and <span className="imp">select car from
+              the available cars and pay accordingly</span>.
 
             </p>
             <div className="usedIcons">
