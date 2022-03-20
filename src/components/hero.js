@@ -9,7 +9,7 @@ function Hero(){
       <div className="row firstRow">
         <div className="col-lg-6">
           <div className="aboutDiv">
-            <p className="title1"><span style={{color:"tomato"}}> Hi, </span>I'm Gokul prasath</p>
+            <p className="title1"><span style={{color:"tomato"}}> Hi, </span>I'm Gokul Prasath</p>
             <p className="title2">A Fullstack Developer</p>
             <p className="about">I design amazing websites which can give a great 
                digital experiences to the client.
