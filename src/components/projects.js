@@ -79,7 +79,7 @@ function Project() {
           </div>
           <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
 
-            <p className="para1"><span className="imp">HYPER CAR RENTAL</span>is a <span className="imp">Car rental portal </span>
+            <p className="para1"><span className="imp">HYPER CAR RENTAL </span>is a <span className="imp">Car rental portal </span>
               where client can purchase a car of his
               choice on rent .Portal is easy to use, client just have to insert his trip's <span className="imp"> start </span> and
               <span className="imp"> end date </span>
