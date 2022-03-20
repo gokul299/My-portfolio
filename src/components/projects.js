@@ -21,7 +21,7 @@ function Project() {
       </div>
       <div className="credentials">
 <ul style={{listStyleType:"none"}}>
-       <li> <p className="demoCred" style={{ color: "yellow", fontWeight: "bold" }}>DEMO CREDENTIALS</p></li>
+       <li> <p className="demoCred" style={{ color: "yellow", fontWeight: "bold" }}>CREDENTIALS</p></li>
        <li> <p className="demoCred" style={{ color: "white" }}>UserID: </p></li>
         <li><p className="demoCred">user321demo@gmail.com</p></li>
         <li><p className="demoCred" style={{ color: "white" }}>Password :</p></li>
@@ -206,9 +206,9 @@ function Project() {
           </div>
           <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
             <p className="para1"><span className="imp">NEWS 24 X 7 </span>
-           nuws 24 X 7  is to develop an application which will display news
-           articles and <span className="imp">uploads news feeds</span>, verified and approved at backend . 
-           App will enable user to view news details, <span className="imp">images.this aplication is very easy for use.</span> 
+           nuws 24 X 7  is to develop an application self uploading the news and which will display news
+           articles and <span className="imp">uploaded news feeds</span>, verified and approved at backend . 
+           App will enable user to view news details, <span className="imp">images.this application is very easy for use.</span> 
       
             </p>
             <div className="usedIcons" >
@@ -267,7 +267,7 @@ function Project() {
                 <button className="codeBtn">BackEnd<i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
               </a>
               <div className="ee">
-                <a href="https://news-24x7.netlify.app" target="blank" className="anchor">
+                <a href="https://demonews.herokuapp.com/" target="blank" className="anchor">
                   <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{ marginLeft: "8px" }}></i></button>
                 </a>
 

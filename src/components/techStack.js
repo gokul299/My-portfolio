@@ -124,16 +124,6 @@ function TechStack (){
                   
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3 col-4">
-                <div className="skillDiv">
-                  <div style={{textAlign:"center"}}>
-                  <p className="iconName">AWS</p>
-                  </div>
-                  <img className="stackIcons" src="./images/awsIcon.png" alt="aws"/>
-                  
-                </div>
-              </div>
-              
             </div>
           </div>
           <div>

@@ -21,7 +21,7 @@ function AboutMe(){
           
         </div>
         <div className="col-lg-6 aboutMeHeroImg" style={{textAlign:"center"}}>
-          <img src="./images/avatar.jpg"alt="devop" style={{width:"40%" , marginTop:"85px"}}/>
+          <img src="./images/avatar.jpg"alt="devop" style={{width:"50%" , marginTop:"85px",borderRadius:"50%",height:"70%",border:"5px solid darkorange"}}/>
         </div>
       </div>
     </div>
