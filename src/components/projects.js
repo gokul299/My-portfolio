@@ -153,7 +153,7 @@ function Project() {
                 <button className="codeBtn">BackEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
               </a>
               <div className="ee">
-                <a href="https://hyper-car-rental.herokuapp.com/login" target="blank" className="anchor">
+                <a href="https://hyper-cars-rental.herokuapp.com/login" target="blank" className="anchor">
                   <button className="codeBtn" >  Live Demo <i className="fas fa-level-down-alt" style={{ marginLeft: "8px" }}></i></button></a>
 
 
