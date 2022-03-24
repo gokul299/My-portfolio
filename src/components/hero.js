@@ -16,11 +16,10 @@ function Hero(){
               I can be relied upon to help your company achieve its goals
               by providing sustainable and scalable solutions.</p>
             <div style={{marginTop:"30px" , display:"flex"}}>
-            <a href="https://github.com/gokul299" target="blank" className="anchor" style={{color:"black" , marginRight:"25px"}}>
-             <img src="./images/githubHomeIcon.png" className="heroIcons" alt="github"/></a>
-
-            <a href="https://drive.google.com/file/d/1g5JpsmH6Y7lwpq70iKwqm8DyTNyEScD0/view" target="blank" className="anchor" style={{color:"black"}}>
-            <img src="./images/resume.png" className="heroIcons" alt="resume"/></a>
+            <a href="https://github.com/gokul299" target="blank" className="anchor" style={{ marginRight:"25px" ,color:"black",fontSize:"40px"}}>
+            <i class="fab fa-github"></i></a>
+             <a  href="https://www.linkedin.com/in/gokul-prasath-g-77581318a/" className="heroicons" style={{color:"black",fontSize:"40px"}}><i class="fab fa-linkedin 5x"></i></a>
+  
 
             </div>
           </div>
@@ -37,3 +36,4 @@ function Hero(){
 }
 
 export default Hero;
+
