@@ -12,7 +12,7 @@ AOS.init({
 
 function Project() {
 
-  const [work, setWork] = React.useState(false)
+
 
   return (
     <>
@@ -20,13 +20,13 @@ function Project() {
         <p className="title1">FEATURED <span style={{ color: "tomato" }} >PROJECTS</span></p>
       </div>
       <div className="credentials">
-<ul style={{listStyleType:"none"}}>
-       <li> <p className="demoCred" style={{ color: "yellow", fontWeight: "bold" }}>CREDENTIALS</p></li>
-       <li> <p className="demoCred" style={{ color: "white" }}>UserID: </p></li>
-        <li><p className="demoCred">user321demo@gmail.com</p></li>
-        <li><p className="demoCred" style={{ color: "white" }}>Password :</p></li>
-        <p className="demoCred"> 12345</p>
-</ul>
+<span style={{listStyleType:"none"}}>
+       <p className="demoCred" style={{ color: "tomato", fontWeight: "bold" }}>CREDENTIALS</p>
+       <p className="demoCred" style={{ color: "black" }}>UserID:<span>  user321demo@gmail.com</span> </p>
+        
+        <p className="demoCred" style={{ color: "black" }}>  Password :<span> 12345</span></p>
+        
+</span>
       </div>
 
       {/* project 1 */}
@@ -79,12 +79,12 @@ function Project() {
           </div>
           <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
 
-            <p className="para1"><span className="imp">HYPER CAR RENTAL </span>is a <span className="imp">Car rental portal </span>
+            <p className="para1"><span className="imp">HYPER CAR RENTAL</span>is a <span className="imp">Car rental portal </span>
               where client can purchase a car of his
-              choice on rent .Portal client just have to insert his trip's <span className="imp"> start </span> and
+              choice on rent .Portal is easy to use, client just have to insert his trip's <span className="imp"> start </span> and
               <span className="imp"> end date </span>
-              as well as the <span className="imp">pickup time</span> and <span className="imp">location</span> and <span className="imp">select car from
-              the available cars and pay accordingly</span>.
+              as well as the <span className="imp">pickup time</span> and <span className="imp">location</span> and select car from
+              the available cars and pay accordingly.
 
             </p>
             <div className="usedIcons">
@@ -206,7 +206,7 @@ function Project() {
           </div>
           <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
             <p className="para1"><span className="imp">NEWS 24 X 7 </span>
-           nuws 24 X 7  is to develop an application self uploading the news and which will display news
+            is to develop an application self uploading the news and which will display news
            articles and <span className="imp">uploaded news feeds</span>, verified and approved at backend . 
            App will enable user to view news details, <span className="imp">images.this application is very easy for use.</span> 
       
@@ -408,10 +408,9 @@ function Project() {
       <hr style={{ marginTop: "0px" }} />
 
 
-      {
-        work ?
+    
 
-          <>
+          
             {/*project 4 */}
 
             <div style={{ textAlign: "center" }}>
@@ -473,11 +472,8 @@ function Project() {
 
             <hr style={{ marginTop: "0px" }} />
 
-          </> : null
-      }
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <button className="codeBtnss2" onClick={() => { setWork(!work) }}>{work ? "VIEW LESS" : "VIEW MORE PROJECTS"}</button>
-      </div>
+          
+     
 
 
     </>
