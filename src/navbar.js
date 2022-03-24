@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import "./index.css"
 
@@ -32,7 +33,7 @@ function Navbar(){
                 <a className="nav-link" href="#contactForm" >Contacts</a>
             </li>
             <li className="nav-item navLis">
-                <a className="nav-link " target="blank" href="none">Resume</a>
+                <a className="nav-link " target="blank" href="https://drive.google.com/file/d/1ZaBb4PzmpEAhyUN-LwcouPkZHfttKtfm/view?usp=sharing">Resume</a>
             </li>
             </ul>
         </div>
@@ -42,4 +43,6 @@ function Navbar(){
 }
 
 export default Navbar;
+
+
 
