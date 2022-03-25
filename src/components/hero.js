@@ -18,7 +18,7 @@ function Hero(){
             <div style={{marginTop:"30px" , display:"flex"}}>
             <a href="https://github.com/gokul299" target="blank" className="anchor" style={{ marginRight:"25px" ,color:"black",fontSize:"40px"}}>
             <i class="fab fa-github"></i></a>
-             <a  href="https://www.linkedin.com/in/gokul-prasath-g-77581318a/" className="heroicons" style={{color:"black",fontSize:"40px"}}><i class="fab fa-linkedin 5x"></i></a>
+             <a  href="https://www.linkedin.com/in/gokul-prasath-g-77581318a/" target="blank" className="heroicons" style={{color:"black",fontSize:"40px"}}><i class="fab fa-linkedin 5x"></i></a>
   
 
             </div>
