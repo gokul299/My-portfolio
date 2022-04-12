@@ -521,14 +521,14 @@ function Project() {
             </div>
             <div style={{ display: "flex", marginTop: '15px', flexWrap: "wrap", position: "relative" }}>
 
-              <a href="https://github.com/gokul299/rental-frontend" target="blank" className="anchor">
+              <a href="https://github.com/gokul299/delivery-client" target="blank" className="anchor">
                 <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
               </a>
-              <a href="https://github.com/gokul299/rental-backend" target="blank" className="anchor">
+              <a href="https://github.com/gokul299/delivery-server" target="blank" className="anchor">
                 <button className="codeBtn">BackEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
               </a>
               <div className="ee">
-                <a href="https://hyper-cars-rental.herokuapp.com/login" target="blank" className="anchor">
+                <a href="https://proj-delivery.herokuapp.com/my-account" target="blank" className="anchor">
                   <button className="codeBtn" >  Live Demo <i className="fas fa-level-down-alt" style={{ marginLeft: "8px" }}></i></button></a>
 
 
