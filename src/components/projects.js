@@ -443,7 +443,7 @@ function Project() {
                       
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/Delivery 3.png" alt="Third slide" />
+                    <img className="d-block w-100" src="./images/Delivery 3" alt="Third slide" />
                   </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
