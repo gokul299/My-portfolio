@@ -422,39 +422,42 @@ function Project() {
                 <div className="col-lg-6" style={{ padding: "10px" }}>
                   <div style={{ width: "100%", height: "100%" }}>
                  
-                    
+                 
+      <div className="container" data-aos="zoom-in">
+        <div className="row secondDiv">
+          <div className="col-lg-6" style={{ padding: "0px" }}>
+            <div style={{ width: "100%", height: "100%" }}>
+              <div id="carouselExampleIndicators4" className="carousel slide" data-ride="carousel">
+                <ol className="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 
-
-<div className="carousel-inner">
+                </ol>
+                <div className="carousel-inner">
                   <div className="carousel-item active">
-   <img src="./images/Delivery 1.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
+                     <img src="./images/Delivery 1.png" alt="Frist slide" style={{ width: "100%", height: "100%" }} />
+                    </div>
+                  <div className="carousel-item">
+                
+                     <img src="./images/Delivery 2.png" alt="Scocend slide" style={{ width: "100%", height: "100%" }} />
+                      
                   </div>
                   <div className="carousel-item">
-               
-                     <img src="./images/Delivery 2.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
-                  </div>
-                  <div className="carousel-item">
-                  <img src="./images/Delivery 3.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
+                    <img className="d-block w-100" src="./images/Delivery 3.png" alt="Third slide" />
                   </div>
                 </div>
-               
+                <a className="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          </div>
 
 
                   </div>
