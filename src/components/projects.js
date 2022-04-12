@@ -413,44 +413,41 @@ function Project() {
           
             {/*project 4 */}
 
-            <div style={{ textAlign: "center" }}>
-              <p className="title2 project2"><span style={{ color: "tomato" }}>LIVE-GOLD</span> CALCULATOR</p>
-            </div>
+          
+      <div style={{ textAlign: "center" }}>
+        <p className="title2 project2"><span style={{ color: "tomato" }}>CAR WASH </span> EXPRESS</p>
+      </div>
 
-            <div className="container" data-aos="zoom-in">
-              <div className="row secondDiv">
-                <div className="col-lg-6" style={{ padding: "10px" }}>
-                  <div style={{ width: "100%", height: "100%" }}>
-                 
-                 
       <div className="container" data-aos="zoom-in">
         <div className="row secondDiv">
           <div className="col-lg-6" style={{ padding: "0px" }}>
             <div style={{ width: "100%", height: "100%" }}>
-              <div id="carouselExampleIndicators4" className="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators3" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="0" className="active"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                     <img src="./images/Delivery 1.png" alt="Frist slide" style={{ width: "100%", height: "100%" }} />
-                    </div>
-                  <div className="carousel-item">
-                
-                     <img src="./images/Delivery 2.png" alt="Scocend slide" style={{ width: "100%", height: "100%" }} />
-                      
+                    <img className="d-block w-100" src="./images/Delivery 1.png" alt="First slide" />
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/Delivery 3" alt="Third slide" />
+                    <img className="d-block w-100" src="./images/Delivery 2.png" alt="Second slide" />
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src="./images/Delivery 3.png" alt="Third slide" />
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src="./images/carWash/car4.png" alt="f slide" />
                   </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                <a className="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                <a className="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only">Next</span>
                 </a>
@@ -458,53 +455,90 @@ function Project() {
             </div>
 
           </div>
+          <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
+            <p className="para1"><span className="imp">Car wash express </span> is a website developed with all neccessary features,
+              as well as with <span className="imp">authorization</span> and <span className="imp">authentication </span>
+              user can book an appointment for different types of car wash ,
+              as well as he can  cancel his appointment if needed.
 
+            </p>
+            <div className="usedIcons">
 
-                  </div>
-
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/reactIcon.png" alt="icon1" className="prjIcons" />
                 </div>
-                <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
-
-                  <p className="para1"><span className="imp">GOLD CALCULATOR </span> is an app where a user can get his
-                    <span className="imp"> gold price details </span> just by entering the value you got price details
-                    as well as its . It's simple to understand and can be used easily.
-                  </p>
-
-                  <div style={{ display: "flex" }}>
-
-                    <div className="pop">
-                      <div className="prjDiv">
-
-                        <img src="./images/reactIcon.png" alt="icon1" className="prjIcons" />
-
-                      </div>
-                      <div className="softIcon">
-                        <p className="smallName">React</p>
-                      </div>
-                    </div>
-
-                    <div className="pop">
-                      <div className="prjDiv">
-                        <img src="./images/bootstrapIcon.png" alt="icon1" className="prjIcons" />
-                      </div>
-                      <div className="softIcon">
-                        <p className="smallName">Bootstrap</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div style={{ display: "flex", marginTop: '40px', flexWrap: "wrap" }}>
-                    <a href="https://github.com/gokul299/gold-calculator" target="blank" className="anchor">
-                      <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
-                    </a>
-                    <a href="https://live-gold-calculator.netlify.app" target="blank" className="anchor">
-                      <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{ marginLeft: "8px" }}></i></button>
-                    </a>
-                  </div>
+                <div className="softIcon">
+                  <p className="smallName">React</p>
                 </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/mongoDBicon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">MongoDB</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/nodeJsIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">NodeJs</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/bootstrapIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">Bootstrap</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/materialUiIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">MaterialUi</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/express.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">Express</p>
+                </div>
+              </div>
+
+            </div>
+            <div style={{ display: "flex", marginTop: '15px', flexWrap: "wrap", position: "relative" }}>
+
+              <a href="https://github.com/gokul299/carwash-frontend" target="blank" className="anchor">
+                <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
+              </a>
+              <a href="https://github.com/gokul299/carwash-backend" target="blank" className="anchor">
+                <button className="codeBtn">BackEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
+              </a>
+              <div className="ee">
+                <a href="https://carwash-express.netlify.app/" target="blank" className="anchor">
+                  <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{ marginLeft: "8px" }}></i></button>
+                </a>
 
               </div>
             </div>
-            <hr style={{ marginTop: "0px" }} />
+          </div>
+
+        </div>
+      </div>
+      <hr style={{ marginTop: "0px" }} />
 
             {/* extra project 1 */}
 
