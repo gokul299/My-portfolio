@@ -39,7 +39,7 @@ function Project() {
         <div className="row secondDiv">
           <div className="col-lg-6" style={{ padding: "0px" }}>
             <div style={{ width: "100%", height: "100%" }}>
-              <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators1" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#carouselExampleIndicators2" data-slide-to="0" className="active"></li>
                   <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -64,11 +64,11 @@ function Project() {
                     <img className="d-block w-100" src="./images/rental/rent5.png" alt=" slide5" />
                   </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <a className="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <a className="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only">Next</span>
                 </a>
@@ -437,12 +437,6 @@ function Project() {
                   </div>
                   <div className="carousel-item">
                     <img className="d-block w-100" src="./images/Delivery 3.png" alt=" slide3" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/rental/rent4.png" alt=" slide4" />
-                  </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/rental/rent5.png" alt=" slide5" />
                   </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
