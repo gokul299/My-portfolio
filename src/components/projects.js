@@ -175,7 +175,7 @@ function Project() {
         <div className="row secondDiv">
           <div className="col-lg-6" style={{ padding: "0px" }}>
             <div style={{ width: "100%", height: "100%" }}>
-              <div id="carouselExampleIndicators4" className="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -192,11 +192,11 @@ function Project() {
                     <img className="d-block w-100" src="./images/news/News3.png" alt="Third slide" />
                   </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only">Next</span>
                 </a>
