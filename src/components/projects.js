@@ -431,17 +431,15 @@ function Project() {
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img className="d-block w-100" src="./images/Delivery 1.png" alt="First slide" />
+                    <img className="d-block w-100" src="./images/Delivery 1.png" alt="first slide" />
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/Delivery 2.png" alt="Second slide" />
+                    <img className="d-block w-100" src="./images/Delivery 2.png" alt="second slide" />
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/Delivery 3.png" alt="Third slide" />
+                    <img className="d-block w-100" src="./images/Delivery 3.png" alt="third slide" />
                   </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/carWash/car4.png" alt="f slide" />
-                  </div>
+                  
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
