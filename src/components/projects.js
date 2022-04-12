@@ -413,14 +413,14 @@ function Project() {
           
             {/*project 4 */}
    <div style={{ textAlign: "center" }}>
-        <p className="title2 project2"><span style={{ color: "tomato" }}>HYPER CAR</span> RENT PORTAL</p>
+        <p className="title4 project4"><span style={{ color: "tomato" }}>DELIVERY</span> APP</p>
       </div>
 
       <div className="container" data-aos="zoom-in">
         <div className="row secondDiv">
           <div className="col-lg-6" style={{ padding: "0px" }}>
             <div style={{ width: "100%", height: "100%" }}>
-              <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators4" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#carouselExampleIndicators2" data-slide-to="0" className="active"></li>
                   <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -430,13 +430,13 @@ function Project() {
                 </ol>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img className="d-block w-100" src="./images/rental/rent1.png" alt=" slide1" />
+                    <img className="d-block w-100" src="./images/Delivery 1.png" alt=" slide1" />
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/rental/rent2.png" alt=" slide2" />
+                    <img className="d-block w-100" src="./images/Delivery 2.png" alt=" slide2" />
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="./images/rental/rent3.png" alt=" slide3" />
+                    <img className="d-block w-100" src="./images/Delivery 3.png" alt=" slide3" />
                   </div>
                   <div className="carousel-item">
                     <img className="d-block w-100" src="./images/rental/rent4.png" alt=" slide4" />
@@ -445,11 +445,11 @@ function Project() {
                     <img className="d-block w-100" src="./images/rental/rent5.png" alt=" slide5" />
                   </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <a className="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <a className="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only">Next</span>
                 </a>
