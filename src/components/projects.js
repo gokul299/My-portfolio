@@ -412,7 +412,7 @@ function Project() {
 
           
             {/*project 4 */}
-   <div style={{ textAlign: "center" }}>
+   <div style={{ textAlign: "center" ,padding:"20px",fontSize:"30px";}}>
         <p className="title4 project4"><span style={{ color: "tomato" }}>DELIVERY</span> APP</p>
       </div>
 
@@ -453,15 +453,12 @@ function Project() {
 
           </div>
           <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
-
-            <p className="para1"><span className="imp">HYPER CAR RENTAL</span>is a <span className="imp">Car rental portal </span>
-              where client can purchase a car of his
-              choice on rent .Portal is easy to use, client just have to insert his trip's <span className="imp"> start </span> and
-              <span className="imp"> end date </span>
-              as well as the <span className="imp">pickup time</span> and <span className="imp">location</span> and select car from
-              the available cars and pay accordingly.
-
-            </p>
+          <P className="para1"> <span className="imp"> delivery app </span>is a Ingredient adjustment — to 
+           <span className="imp">add or remove/span> ingredients.<span className="imp"> Online payment</span> —secure to pay for food and delivery online orders. 
+          access a area of restaurants in the customer city.this project running in <span className="imp"> stripe payment</span>
+         this project is very use full for <span className="imp">pizza stores<span></p>
+              
+              
             <div className="usedIcons">
 
               <div className="pop">
