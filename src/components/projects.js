@@ -457,7 +457,7 @@ function Project() {
            <span className="imp">add or remove</span> ingredients.<span className="imp"> Online payment</span>
              —secure to pay for food and delivery online orders. 
           access a area of restaurants in the customer city.this project running in <span className="imp"> stripe payment</span>
-         this project is very use full for <span className="imp">pizza stores</span></p>
+         this project is very use full for <span className="imp">pizza stores.</span></p>
               
               
             <div className="usedIcons">
