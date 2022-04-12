@@ -421,9 +421,42 @@ function Project() {
               <div className="row secondDiv">
                 <div className="col-lg-6" style={{ padding: "10px" }}>
                   <div style={{ width: "100%", height: "100%" }}>
-                    <img src="./images/Delivery 1.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
+                 
+                    
+
+
+<div className="carousel-inner">
+                  <div className="carousel-item active">
+   <img src="./images/Delivery 1.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
+                  </div>
+                  <div className="carousel-item">
+               
                      <img src="./images/Delivery 2.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
-                       <img src="./images/Delivery 3.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
+                  </div>
+                  <div className="carousel-item">
+                  <img src="./images/Delivery 3.png" alt="PIZZA APP" style={{ width: "100%", height: "100%" }} />
+                  </div>
+                </div>
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   </div>
 
                 </div>
