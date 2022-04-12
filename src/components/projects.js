@@ -412,81 +412,140 @@ function Project() {
 
           
             {/*project 4 */}
-
-    <div style={{textAlign:"center"}}>
-      <p className="title2 project2"><span style={{color:"tomato"}}>BANK</span> DETAILER</p>
-    </div>
-
-    <div className="container" data-aos="zoom-in">
-      <div className="row secondDiv">
-        <div className="col-lg-6" style={{padding:"10px"}}>
-          <div style={{width:"100%" , height:"100%"}}>
-         <img src="./images/bankDetailer.png" alt="covid-tracker" style={{width:"100%" ,  height:"100%"}}/>
-          </div>
-         
-        </div>
-        <div className="col-lg-6 projectInfo" style={{padding:" 0px 20px 20px 20px"}}>
-       
-          <p className="para1"><span className="imp">Bank detailer </span> is an app where a user can get his 
-          <span className="imp"> bank branch details </span> just by entering the 
-          <span className="imp"> IFSC </span> code . User get his <span className="imp"> bank address </span> details 
-          as well as its <span className="imp"> contact </span> number . It's simple to understand and 
-          can be used easily.
-          </p>
-         
-          <div style={{display:"flex" }}>
-
-            <div className="pop">
-              <div className="prjDiv">
-                <img src="./images/htmlIcon.png" alt="icon1" className="prjIcons"/>
-              </div>
-              <div className="softIcon">
-                <p  className="smallName">HTML</p>
-              </div>
-            </div>
-
-            <div className="pop">
-              <div className="prjDiv">
-                <img src="./images/cssIcon.png" alt="icon1" className="prjIcons"/>
-              </div>
-              <div className="softIcon">
-                <p className="smallName">CSS</p>
-              </div>
-            </div>
-
-            <div className="pop">
-              <div className="prjDiv">
-                <img src="./images/jsIcon.png" alt="icon1" className="prjIcons"/>
-              </div>
-              <div className="softIcon">
-                <p className="smallName">JSS</p>
-              </div>
-            </div>
-
-            <div className="pop">
-              <div className="prjDiv">
-                <img src="./images/bootstrapIcon.png" alt="icon1" className="prjIcons"/>
-              </div>
-              <div className="softIcon">
-                <p className="smallName">Bootstrap</p>
-              </div>
-            </div>
-            
-          </div>
-          <div style={{display:"flex" , marginTop:'40px' , flexWrap:"wrap" }}>
-            <a href="https://github.com/suraj860/Day-25-IFSC" target="blank" className="anchor">
-              <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{marginLeft:"8px"}}></i></button>
-            </a>
-            <a href = "https://get-bankdetails.netlify.app/" target="blank" className="anchor">
-            <button className="codeBtn">Live Demo <i className="fas fa-level-down-alt" style={{marginLeft:"8px"}}></i></button>
-            </a>
-          </div>
-        </div>
-        
+   <div style={{ textAlign: "center" }}>
+        <p className="title2 project2"><span style={{ color: "tomato" }}>HYPER CAR</span> RENT PORTAL</p>
       </div>
-    </div>
-    <hr style={{marginTop:"0px"}}/>  
 
+      <div className="container" data-aos="zoom-in">
+        <div className="row secondDiv">
+          <div className="col-lg-6" style={{ padding: "0px" }}>
+            <div style={{ width: "100%", height: "100%" }}>
+              <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
+                <ol className="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" className="active"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                </ol>
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img className="d-block w-100" src="./images/rental/rent1.png" alt=" slide1" />
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src="./images/rental/rent2.png" alt=" slide2" />
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src="./images/rental/rent3.png" alt=" slide3" />
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src="./images/rental/rent4.png" alt=" slide4" />
+                  </div>
+                  <div className="carousel-item">
+                    <img className="d-block w-100" src="./images/rental/rent5.png" alt=" slide5" />
+                  </div>
+                </div>
+                <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+          <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
+
+            <p className="para1"><span className="imp">HYPER CAR RENTAL</span>is a <span className="imp">Car rental portal </span>
+              where client can purchase a car of his
+              choice on rent .Portal is easy to use, client just have to insert his trip's <span className="imp"> start </span> and
+              <span className="imp"> end date </span>
+              as well as the <span className="imp">pickup time</span> and <span className="imp">location</span> and select car from
+              the available cars and pay accordingly.
+
+            </p>
+            <div className="usedIcons">
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/reactIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">React</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/mongoDBicon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">MongoDB</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/nodeJsIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">NodeJs</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/bootstrapIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">Bootstrap</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/materialUiIcon.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">MaterialUi</p>
+                </div>
+              </div>
+
+              <div className="pop">
+                <div className="prjDiv">
+                  <img src="./images/express.png" alt="icon1" className="prjIcons" />
+                </div>
+                <div className="softIcon">
+                  <p className="smallName">Express</p>
+                </div>
+              </div>
+
+            </div>
+            <div style={{ display: "flex", marginTop: '15px', flexWrap: "wrap", position: "relative" }}>
+
+              <a href="https://github.com/gokul299/rental-frontend" target="blank" className="anchor">
+                <button className="codeBtn">FrontEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
+              </a>
+              <a href="https://github.com/gokul299/rental-backend" target="blank" className="anchor">
+                <button className="codeBtn">BackEnd <i className="fab fa-github" style={{ marginLeft: "8px" }}></i></button>
+              </a>
+              <div className="ee">
+                <a href="https://hyper-cars-rental.herokuapp.com/login" target="blank" className="anchor">
+                  <button className="codeBtn" >  Live Demo <i className="fas fa-level-down-alt" style={{ marginLeft: "8px" }}></i></button></a>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr style={{ marginTop: "0px" }} />
+  
             {/* extra project 1 */}
 
             <hr style={{ marginTop: "0px" }} />
