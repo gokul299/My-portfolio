@@ -455,9 +455,9 @@ function Project() {
           <div className="col-lg-6 projectInfo" style={{ padding: " 0px 20px 20px 20px" }}>
           <P className="para1"> <span className="imp"> delivery app </span>is a Ingredient adjustment — to 
            <span className="imp">add or remove</span> ingredients.<span className="imp"> Online payment</span>
-             —secure to pay for food and delivery online orders. 
-          access a area of restaurants in the customer city.this project running in <span className="imp"> stripe payment</span>
-         this project is very use full for <span className="imp">pizza stores.</span>
+            ,<span className="imp">safe and secure</span> to pay for food and delivery online orders. 
+              access a area of restaurants in the customer city.this project running in <span className="imp"> stripe payment</span>
+               this project is very use full for <span className="imp">pizza stores.</span>
             
         </p>
               
