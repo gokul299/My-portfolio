@@ -412,7 +412,7 @@ function Project() {
 
           
             {/*project 4 */}
-   <div style={{ textAlign: "center" ,padding:"20px",fontSize:"30px";}}>
+   <div style={{ textAlign: "center" ,padding:"20px",fontSize:"30px"}}>
         <p className="title4 project4"><span style={{ color: "tomato" }}>DELIVERY</span> APP</p>
       </div>
 
