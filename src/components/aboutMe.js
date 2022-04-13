@@ -20,7 +20,7 @@ function AboutMe(){
             <p className="about about2">Fast-forward to today, I am looking for a challenging, respectable and responsible work, that can form out my personal
               and professional growth and helps me to contribute effectively  to the company growth .</p>
               <img src="./images/resume.png" alt="resume"/>
-              <a href="https://drive.google.com/file/d/1ZaBb4PzmpEAhyUN-LwcouPkZHfttKtfm/view?usp=sharing" target="blank" className="anchor" style={{color:"white"}}> <button type="button" class="btn btn-warning">RESUME</button></a>
+              <a href="https://drive.google.com/file/d/10K5fypPxKyQV9iErDD5NmQ2aPC5iXT8N/view" target="blank" className="anchor" style={{color:"white"}}> <button type="button" class="btn btn-warning">RESUME</button></a>
           </div>
           
         </div>
