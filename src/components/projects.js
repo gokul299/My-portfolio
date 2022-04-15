@@ -22,9 +22,9 @@ function Project() {
       <div className="credentials">
 <span style={{listStyleType:"none"}}>
        <p className="demoCred" style={{ color: "tomato", fontWeight: "bold" }}>CREDENTIALS</p>
-       <p className="demoCred" style={{ color: "black" }}>UserID:<span>  user321demo@gmail.com</span> </p>
+       <p className="demoCred" style={{ color: "black" }}>UserID:<span>  user4321demo@gmail.com</span> </p>
         
-        <p className="demoCred" style={{ color: "black" }}>  Password :<span> 12345</span></p>
+        <p className="demoCred" style={{ color: "black" }}>  Password :<span> !12345</span></p>
         
 </span>
       </div>
